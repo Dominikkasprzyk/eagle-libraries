@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -88,7 +88,7 @@
 <pin name="MTI0" x="-20.32" y="2.54" length="middle" direction="in"/>
 <pin name="MTI1/GUARD" x="-20.32" y="-2.54" length="middle" direction="in"/>
 <pin name="MTPM" x="-20.32" y="-7.62" length="middle" direction="in"/>
-<pin name="VSS" x="20.32" y="7.62" length="middle" direction="sup" rot="R180"/>
+<pin name="VSS" x="20.32" y="7.62" length="middle" direction="pwr" rot="R180"/>
 <pin name="MTO0" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
 <pin name="MTO1/GC" x="20.32" y="-2.54" length="middle" direction="out" rot="R180"/>
 <pin name="MTSA" x="20.32" y="-7.62" length="middle" direction="in" rot="R180"/>
